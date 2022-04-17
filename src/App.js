@@ -14,6 +14,7 @@ function App() {
       <DirectoryStruct/>
       <SearchBar/>
 
+
       <Footer/>
       
     </div>
