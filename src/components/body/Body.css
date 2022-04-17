@@ -1,34 +1,39 @@
-.textbold{
+.textbold {
 
     font-weight: 700;
 }
 
-body{
+body {
     background-color: lightgray;
-    font-size:medium;
+    font-size: medium;
 }
 
-a { text-decoration: none; }
+a {
+    text-decoration: none;
+}
+
 .hide {
     display: none;
-  }
-  
+}
+
 .myDIV:hover .hide {
-    display:inline-block;
+    display: inline-block;
     background-color: #4CAF50;
-    color:white;
+    color: white;
     border: none;
-    
-  }
-  .JobSearchCard-primary-heading-status {
+
+}
+
+.JobSearchCard-primary-heading-status {
     font-size: 13px;
     font-size: .8125rem;
     line-height: 1.2;
     color: #5dc26a;
     font-weight: 700;
     margin-left: 0;
-    padding-top :10;
+    padding-top: 10;
 }
+
 [data-tooltip] {
     position: relative;
     display: inline-block;
@@ -45,50 +50,49 @@ a { text-decoration: none; }
     width: 24px;
 }
 
-
-.container-fluid{
-    cursor:pointer;
+#cont-fluid{
+    cursor: pointer;
     background-color: white;
 }
 
-.container-fluid:hover{
+#cont-fluid:hover {
     background-color: rgb(245, 245, 245);
-
-}
-.hidecontent{
-    display:block;
 }
 
-@media (max-width: 992px) { 
-    .hidecontent{
+.hidecontent {
+    display: block;
+}
+
+@media (max-width: 992px) {
+    .hidecontent {
         display: none;
     }
-}     
+}
 
 a:hover {
     text-decoration: none;
     text-decoration: underline;
-  }
+}
 
-  
+
 .container-bg {
     background: white;
 }
 
-.VisibleContent{
-    display:none;
+.VisibleContent {
+    display: none;
 }
 
-@media (max-width: 992px) { 
-    .VisibleContent{
+@media (max-width: 992px) {
+    .VisibleContent {
         display: block;
     }
 }
 
-.Pgcolor{
+.Pgcolor {
     background-color: rgb(233, 233, 233);
 }
 
-.pgDirection{
+.pgDirection {
     direction: rtl;
 }

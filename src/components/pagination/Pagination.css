@@ -10,7 +10,7 @@
     border-left: 0;
 }
 
-.btn {
+#pg-btn {
     background: #F7F7F7;
     border: 1px solid #BEC0C2;
     color: #4D525B;
@@ -43,4 +43,3 @@
     vertical-align: middle;
     width: 18px;
 }
-
