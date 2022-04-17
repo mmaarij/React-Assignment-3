@@ -1,0 +1,54 @@
+.modal-sheet .modal-dialog {
+    width: 380px;
+    transition: bottom .75s ease-in-out;
+}
+
+.modal-sheet .modal-footer {
+    padding-bottom: 2rem;
+}
+
+.modal-alert .modal-dialog {
+    width: 380px;
+}
+
+.border-right {
+    border-right: 1px solid #eee;
+}
+
+.modal-tour .modal-dialog {
+    width: 380px;
+}
+
+.modal-dialog {
+    width: 380px;
+}
+
+@media (max-width: 576px) {
+    .modal-dialog {
+        width: 380px;
+        margin: 0.5rem auto;
+    }
+}
+
+.btn-close-width{
+    width: 100px;
+}
+
+.fb-button {
+    background-color: #3b5998 !important;
+}
+
+a:link {
+    text-decoration: none;
+    color: #007fed;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: color .1s ease-out;
+    /*color: #0082f2;*/
+}

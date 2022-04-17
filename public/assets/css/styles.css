@@ -1,0 +1,141 @@
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-item {
+}
+
+#navLogo {
+  width: 150px;
+}
+
+#topBanner {
+  height: 105px;
+  background: #007fed;
+}
+
+@media (min-width: 992px) {
+  #topBanner {
+    height: 80px;
+    background: #007fed;
+  }
+}
+
+#topJobsTitle {
+  margin-left: 15px;
+  color: rgb(255,255,255);
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  #topJobsTitle {
+    margin-left: 15px;
+    color: rgb(255,255,255);
+    padding-left: 67px;
+  }
+}
+
+#wantToHire {
+  background: #f20091;
+  border-style: solid;
+  border-color: #f20091;
+  margin: 5px;
+}
+
+#wantToWork {
+  background: rgba(0,0,0,0);
+  border-style: solid;
+  border-color: rgb(255,255,255);
+  margin: 5px;
+}
+
+.directoryText {
+  margin: 15px;
+}
+
+@media (max-width: 768px) {
+  #directoryDisplay {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  #directoryDisplay {
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 5px;
+    display: inherit;
+    margin-left: 72px;
+  }
+}
+
+#pageBody {
+  background-color: #f0f0f0;
+  min-width: 25%;
+}
+
+#navigation-block {
+  background-color: white;
+}
+
+@media (min-width: 992px) {
+  #navBrand {
+    padding-left: 75px;
+  }
+}
+
+@media (min-width: 992px) {
+  .topNavButtonPad {
+    padding-right: 87px;
+  }
+}
+
+@media (max-width: 576px) {
+  .iconOpacity {
+    display: none;
+  }
+}
+
+.iconOpacity {
+  color: rgba(33,37,41,0.36);
+}
+
+.searchBtn {
+  background: #007fed;
+  color: rgb(255,255,255);
+  font-weight: bold;
+}
+
+#searchBar {
+  height: 60px;
+  background: #ffffff;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #139ff0;
+}
+
+#searchContainer {
+  padding-top: 20px;
+}
+
+#wantToHire:hover {
+  background-color: #fa5f9b;
+  border-color: #fa5f9b;
+}
+
+#wantToWork:hover {
+  background-color: #3399f1;
+}
+
+@media (max-width: 992px) {
+  #appStoreDiv {
+    padding-top: 30px;
+  }
+}
+
