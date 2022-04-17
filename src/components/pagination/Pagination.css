@@ -1,0 +1,46 @@
+.Pagination-item {
+    display: inline-block;
+}
+
+.Pagination-link {
+    float: left;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 0;
+    border-left: 0;
+}
+
+.btn {
+    background: #F7F7F7;
+    border: 1px solid #BEC0C2;
+    color: #4D525B;
+    font-weight: 700;
+    text-shadow: 0 -1px transparent;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-size: .875rem;
+    background-clip: border-box;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    line-height: 18px;
+    text-align: center;
+}
+
+.Pagination-link [class*=flicon-pagination] {
+    width: 12px;
+    height: 12px;
+    margin-right: 0;
+    padding: 0;
+    fill: #0e1724;
+    pointer-events: none;
+    stroke: none;
+}
+.btn [class*=flicon-] {
+    display: inline-block;
+    height: 18px;
+    vertical-align: middle;
+    width: 18px;
+}
+

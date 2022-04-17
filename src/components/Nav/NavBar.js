@@ -3,7 +3,33 @@ import React from "react";
 import LoginModal from "../modal/LoginModal";
 import SignupModal from "../modal/SignupModal";
 
+
 class NavBar extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      showModalLogin: false,
+      showModalSignup: false,
+    }
+}
+
+openModalLogin = () => {
+  this.setState({ showModalLogin: true });
+};
+
+closeModalLogin = () => {
+  this.setState({ showModalLogin: false });
+};
+
+openModalSignup = () => {
+  this.setState({ showModalSignup: true });
+};
+
+closeModalSignup = () => {
+  this.setState({ showModalSignup: false });
+};
+
   render() {
     return (
       <nav className="navbar navbar-light navbar-expand-lg">
@@ -32,7 +58,7 @@ class NavBar extends React.Component {
                 paddingRight: "15px"
               }}
             >
-              <a className="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#LoginModal" data-bs-whatever="Log In">
+              <a className="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#LoginModal" data-bs-whatever="Log In" onClick={this.openModalLogin}>
                 Log In
               </a>
 
@@ -40,14 +66,15 @@ class NavBar extends React.Component {
 
             <li className="nav-item topNavButtonPad">
 
-              <a className="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#SignupModal" data-bs-whatever="Signup">
+              <a className="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#SignupModal" data-bs-whatever="Signup" onClick={this.openModalSignup}>
                 Sign Up
               </a>
 
             </li>
 
-            <SignupModal/>
-            <LoginModal/>
+            {this.state.showModalLogin && (<LoginModal/>)}
+            {this.state.showModalSignup && (<SignupModal/>)}
+            
           </ul>
         </div>
       </nav>

@@ -1,0 +1,94 @@
+.textbold{
+
+    font-weight: 700;
+}
+
+body{
+    background-color: lightgray;
+    font-size:medium;
+}
+
+a { text-decoration: none; }
+.hide {
+    display: none;
+  }
+  
+.myDIV:hover .hide {
+    display:inline-block;
+    background-color: #4CAF50;
+    color:white;
+    border: none;
+    
+  }
+  .JobSearchCard-primary-heading-status {
+    font-size: 13px;
+    font-size: .8125rem;
+    line-height: 1.2;
+    color: #5dc26a;
+    font-weight: 700;
+    margin-left: 0;
+    padding-top :10;
+}
+[data-tooltip] {
+    position: relative;
+    display: inline-block;
+}
+
+
+.Icon.is-success {
+    fill: #5dc26a;
+}
+
+.Icon-image {
+    height: 24px;
+    vertical-align: middle;
+    width: 24px;
+}
+
+
+.container-fluid{
+    cursor:pointer;
+    background-color: white;
+}
+
+.container-fluid:hover{
+    background-color: rgb(245, 245, 245);
+
+}
+.hidecontent{
+    display:block;
+}
+
+@media (max-width: 992px) { 
+    .hidecontent{
+        display: none;
+    }
+}     
+
+a:hover {
+    text-decoration: none;
+    text-decoration: underline;
+  }
+
+  
+.container-bg {
+    background: white;
+}
+
+.VisibleContent{
+    display:none;
+}
+
+@media (max-width: 992px) { 
+    .VisibleContent{
+        display: block;
+    }
+}
+
+.Pgcolor{
+    background-color: rgb(233, 233, 233);
+}
+
+.pgDirection{
+    direction: rtl;
+}
